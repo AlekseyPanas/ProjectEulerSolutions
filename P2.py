@@ -14,7 +14,7 @@ while cur <= 4000000:
     if cur % 2 == 0:
         summ += cur
     temp = cur
-    cur = cur + prev
+    cur += prev
     prev = temp
 
 print(summ)
